@@ -26,7 +26,7 @@ class CBQuestViewModel: ObservableObject {
         loadQuestsItem()
     }
     
-    private let userDefaultsAchievementsKey = "achievementsKeyCB"
+    private let userDefaultsAchievementsKey = "questsKeyCB"
     
     func achieveToggle(_ achive: NEGAchievement) {
         guard let index = quests.firstIndex(where: { $0.id == achive.id })
