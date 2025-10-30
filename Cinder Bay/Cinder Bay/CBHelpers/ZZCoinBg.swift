@@ -1,3 +1,10 @@
+//
+//  ZZCoinBg.swift
+//  Cinder Bay
+//
+//
+
+
 import SwiftUI
 
 struct ZZCoinBg: View {
@@ -5,13 +12,13 @@ struct ZZCoinBg: View {
     var height: CGFloat = ZZDeviceManager.shared.deviceType == .pad ? 80:40
     var body: some View {
         ZStack {
-            Image(.coinsBgMM)
+            Image(.coinsBgCB)
                 .resizable()
                 .scaledToFit()
             
             Text("\(user.money)")
-                .font(.system(size: ZZDeviceManager.shared.deviceType == .pad ? 45:24, weight: .black))
-                .foregroundStyle(.black)
+                .font(.system(size: ZZDeviceManager.shared.deviceType == .pad ? 45:16, weight: .bold))
+                .foregroundStyle(.white)
                 .textCase(.uppercase)
                 .offset(x: 15)
             

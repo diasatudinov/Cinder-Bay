@@ -1,3 +1,10 @@
+//
+//  ZZDeviceManager.swift
+//  Cinder Bay
+//
+//
+
+
 
 import UIKit
 

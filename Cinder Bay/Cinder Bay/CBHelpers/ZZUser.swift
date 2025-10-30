@@ -1,3 +1,10 @@
+//
+//  ZZUser.swift
+//  Cinder Bay
+//
+//
+
+
 import SwiftUI
 
 class ZZUser: ObservableObject {

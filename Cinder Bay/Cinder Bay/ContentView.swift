@@ -2,7 +2,6 @@
 //  ContentView.swift
 //  Cinder Bay
 //
-//  Created by Dias Atudinov on 30.10.2025.
 //
 
 import SwiftUI
