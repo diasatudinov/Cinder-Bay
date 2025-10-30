@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "shopIconCB.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
