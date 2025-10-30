@@ -1,3 +1,10 @@
+//
+//  CPSettingsViewModel.swift
+//  Cinder Bay
+//
+//
+
+
 import SwiftUI
 
 class CPSettingsViewModel: ObservableObject {
